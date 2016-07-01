@@ -3,7 +3,7 @@
 	if (empty($_GET)) {
 		$_GET['app'] = 'user';
 		$_GET['action'] = 'edit';
-		$_GET['uid'] = '1';
+		$_GET['uid'] = '10';
 	}
 
 	switch ($_GET['app']) {
