@@ -65,7 +65,7 @@
 
 	function user_exists($email) {
 
-		$db = new PDO('mysql:host=localhost;dbname=php', 'root', 'paris');
+		$db = new PDO('mysql:host=localhost;dbname=php', 'root', 'lamine');
 
 		$query = $db->prepare('SELECT * FROM user WHERE email=:email');
 		$query->bindValue(':email', $email);
